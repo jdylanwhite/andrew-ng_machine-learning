@@ -62,18 +62,18 @@ class Layer():
         # write Text
         x_text = self.number_of_neurons_in_widest_layer * self.horizontal_distance_between_neurons
         if layerType == 0:
-            pyplot.text(x_text, self.y, 'Input Layer, $x_i$', fontsize = 18,color="white")
+            pyplot.text(x_text, self.y, 'Input Layer, $x_i$', fontsize = 18)#,color="white")
             i=1
             for neuron in self.neurons:
-                 pyplot.text(neuron.x, neuron.y, '$x_'+str(i)+'$', fontsize = 16,color="white",ha="center",va="center")
+                 pyplot.text(neuron.x, neuron.y, '$x_'+str(i)+'$', fontsize = 16,ha="center",va="center")#,color="white")
                  i=i+1
         elif layerType == -1:
-            pyplot.text(x_text, self.y, r'Output Layer $\rightarrow h_\Theta (x)$', fontsize = 18,color="white")
+            pyplot.text(x_text, self.y, r'Output Layer $\rightarrow h_\Theta (x)$', fontsize = 18)#,color="white")
         else:
-            pyplot.text(x_text, self.y, 'Hidden Layer '+str(layerType)+', $a_i^{('+str(layerType+1)+')}$', fontsize = 18,color="white")
+            pyplot.text(x_text, self.y, 'Hidden Layer '+str(layerType)+', $a_i^{('+str(layerType+1)+')}$', fontsize = 18)#,color="white")
             i=1
             for neuron in self.neurons:
-                 pyplot.text(neuron.x, neuron.y, '$a_'+str(i)+'^{('+str(layerType+1)+')}$', fontsize = 16,color="white",ha="center",va="center")
+                 pyplot.text(neuron.x, neuron.y, '$a_'+str(i)+'^{('+str(layerType+1)+')}$', fontsize = 16,ha="center",va="center")#,color="white")
                  i = i+1
             
 class NeuralNetwork():
@@ -95,7 +95,7 @@ class NeuralNetwork():
             layer.draw( i )
         pyplot.axis('scaled')
         pyplot.axis('off')
-        pyplot.title( 'Neural Network architecture',fontsize=24,color="white")
+        pyplot.title( 'Neural Network architecture',fontsize=24)#,color="white")
         pyplot.show()
 
 class DrawNN():
