@@ -90,7 +90,7 @@ end
 J = J/m;
 
 % Add regularization
-J = J + (lambda/(2*m))*(sum(Theta1(:,2:end)(:).^2)+sum(Theta2(:,2:end)(:).^2))
+J = J + (lambda/(2*m))*(sum(Theta1(:,2:end)(:).^2)+sum(Theta2(:,2:end)(:).^2));
 
 % Backpropagate to get gradients
 delta3 = a3 - yMatrix;

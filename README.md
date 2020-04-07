@@ -18,7 +18,7 @@ The course is broken into 11 weeks as follows, with the checkmark denoting compl
   - Regularization
 - [X] Week 4
   - Neural Networks - Representation
-- [ ] Week 5
+- [X] Week 5
   - Neural Networks - Learning
 - [ ] Week 6
   - Advice for Applying Machine Learning

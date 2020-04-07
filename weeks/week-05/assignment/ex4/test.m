@@ -74,3 +74,6 @@ Delta1 = delta2'*a1;
 Delta1 = Delta1/m;
 Delta2 = delta3'*a2;
 Delta2 = Delta2/m;
+
+nnCostFunction(nn_params, input_layer_size, ...
+                          hidden_layer_size, num_labels, X, y, lambda);
