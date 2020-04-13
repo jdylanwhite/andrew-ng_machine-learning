@@ -20,10 +20,10 @@ The course is broken into 11 weeks as follows, with the checkmark denoting compl
   - Neural Networks - Representation
 - [X] Week 5
   - Neural Networks - Learning
-- [ ] Week 6
+- [X] Week 6
   - Advice for Applying Machine Learning
   - Machine Learning System Design
-- [ ] Week 7
+- [X] Week 7
   - Support Vector Machines
 - [ ] Week 8
   - Unsupervised Learning
