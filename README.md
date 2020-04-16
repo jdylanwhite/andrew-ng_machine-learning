@@ -25,7 +25,7 @@ The course is broken into 11 weeks as follows, with the checkmark denoting compl
   - Machine Learning System Design
 - [X] Week 7
   - Support Vector Machines
-- [ ] Week 8
+- [X] Week 8
   - Unsupervised Learning
   - Dimensionality Reduction
 - [ ] Week 9
