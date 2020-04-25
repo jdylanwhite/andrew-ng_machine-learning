@@ -28,10 +28,10 @@ The course is broken into 11 weeks as follows, with the checkmark denoting compl
 - [X] Week 8
   - Unsupervised Learning
   - Dimensionality Reduction
-- [ ] Week 9
+- [X] Week 9
   - Anomaly Detection
   - Recommender Systems
-- [ ] Week 10
+- [X] Week 10
   - Large Scale Machine Learning
-- [ ] Week 11
+- [X] Week 11
   - Application Example: Photo OCR
