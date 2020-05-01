@@ -7,7 +7,7 @@ class Neuron():
         self.y = y
 
     def draw(self, neuron_radius):
-        circle = pyplot.Circle((self.x, self.y), radius=neuron_radius, fill=False,color="white")
+        circle = pyplot.Circle((self.x, self.y), radius=neuron_radius, fill=False)#,color="white")
         pyplot.gca().add_patch(circle)
 
 class Layer():
